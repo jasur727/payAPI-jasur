@@ -576,8 +576,7 @@ img {
   }
 
   .demo-link {
-    /* margin-left: 345px;
-    margin-right: 24px; */
+margin-left: auto;
   }
 
   .questions {
@@ -594,7 +593,9 @@ img {
     padding: 80px 48px;
     margin-top: 79px;
     display: flex;
+    align-items: baseline;
     flex-direction: row-reverse;
+    justify-content: space-between;
   }
 
     .about-icon {
